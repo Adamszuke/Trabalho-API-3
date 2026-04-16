@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "d2961c1e-ab79-4b74-a61f-b6bfa3be4ff0",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53438031",
+    "_collection_link": "https://go.postman.co/collection/53438031-d2961c1e-ab79-4b74-a61f-b6bfa3be4ff0?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "POST",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"O Auto da Compadecida\",\r\n  \"diretor\": \"Guel Arraes\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
